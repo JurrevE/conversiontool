@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.inputdiv {
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: 10rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.label {
+  font-size: 1.125rem;
+  margin-right: 0.625rem;
+}
+
+#userinput {
+  padding: 0.625rem;
+  font-size: 1.125rem;
+  border: 0.125rem solid #ccc;
+  border-radius: 0.3125rem;
+}
+
+#submitbutton {
+  padding: 0.625rem 1.25rem;
+  font-size: 1.125rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+#submitbutton:hover {
+  background-color: #0056b3;
+}
+
+.pricediv {
+  height: 20rem;
+  width: 20rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#price {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+}
+
+#yuanprice {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+}
+
+#usprice {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+}
